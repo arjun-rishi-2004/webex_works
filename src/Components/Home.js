@@ -10,22 +10,21 @@ const Home = () => {
       <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
-          <img src={BannerBackground} alt="" />
+          {/* <img src={BannerBackground} alt="" /> */}
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
-          </h1>
+          Building Tomorrow's Solutions, Today          </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+           
+Join our student-led team of creators and innovators. We're a group of computer science engineering students passionate about learning and building projects together. Explore our portfolio and join us as we turn ideas into reality.
           </p>
-          <button className="secondary-button">
+          {/* <button className="secondary-button">
             Order Now <FiArrowRight />{" "}
-          </button>
+          </button> */}
         </div>
         <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+          {/* <img src={BannerImage} alt="" /> */}
         </div>
       </div>
     </div>

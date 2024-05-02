@@ -13,9 +13,10 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
+import EditNoteIcon from '@mui/icons-material/EditNote';
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+//import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -25,37 +26,37 @@ const Navbar = () => {
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "Services",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "About Us",
       icon: <CommentRoundedIcon />,
+    },
+    {
+      text: "Blogs",
+      icon: <EditNoteIcon/>,
     },
     {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
   ];
   return (
     <nav>
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        {/* <img src={Logo} alt="" /> */}
+        <div className="anta-regular">Web X Works</div>
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+        <a href="">Blogs</a>
         <a href="">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+       
       </div>
+
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
       </div>

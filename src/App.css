@@ -426,3 +426,9 @@ nav {
     display: none;
   }
 }
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 800;
+  font-size: 200%;
+  font-style: normal;
+}

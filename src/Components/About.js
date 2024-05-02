@@ -7,29 +7,26 @@ const About = () => {
   return (
     <div className="about-section-container">
       <div className="about-background-image-container">
-        <img src={AboutBackground} alt="" />
+        {/* <img src={AboutBackground} alt="" /> */}
       </div>
       <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="" />
+        {/* <img src={AboutBackgroundImage} alt="" /> */}
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
-        </h1>
+        Student minds, endless possibilities: Discover our story        </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        We are a team of computer science engineering students brought together by our shared passion for technology and innovation. What started as a group of classmates has evolved into a close-knit team, learning, collaborating, and growing together.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Our journey is fueled by curiosity, creativity, and a drive to make a difference. Join us as we continue to explore new technologies, build meaningful projects, and shape the future of technology.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
+          {/* <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
